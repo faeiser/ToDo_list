@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class Main {
-    private static Scanner scanner = new Scanner(System.in, "ISO-8859-1");
+    private static Scanner scanner = new Scanner(System.in, "UTF-8");
     private static String user, todoName;
     private static int todoID;
     private static boolean afterNextInt = false;
