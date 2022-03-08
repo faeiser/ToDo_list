@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.39">
+<file name="D:\Fabian\Desktop\Neuer Ordner\todo\todo\src\main\java\todo\Main.java">
+<error line="1" severity="error" message="Datei endet nicht mit einem Zeilenumbruch." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="5" column="1" severity="error" message="Falsche Reihenfolge des Imports von &apos;java.sql.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="5" column="16" severity="error" message="Stern-Importe der Form &apos;.*&apos; sollten vermieden werden - java.sql.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="10" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" column="1" severity="error" message="Hilfsklassen sollten keinen Standard-Konstruktur und keinen als public deklarierten Konstruktor haben." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="12" column="5" severity="error" message="Jede Variablendeklaration muss in einer eigenen Anweisung erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"/>
+<error line="14" column="28" severity="error" message="Die Variable &apos;afterNextInt&apos; wird explizit mit &apos;false&apos; initialisiert (was dem Standardwert ihres Typs entspricht)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="47" column="62" severity="error" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="17" severity="error" message="Der if-else-Block hat eine Schachtelungstiefe von 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="68" column="17" severity="error" message="Der if-else-Block hat eine Schachtelungstiefe von 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="68" column="32" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="76" column="17" severity="error" message="Der if-else-Block hat eine Schachtelungstiefe von 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="96" column="28" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="136" column="26" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="144" column="33" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="147" column="30" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="158" column="33" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="181" column="17" severity="error" message="Der if-else-Block hat eine Schachtelungstiefe von 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="222" column="26" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="225" severity="error" message="Zeile ist 125 Zeichen lang (Obergrenze ist 120)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="230" column="33" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="233" column="30" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="240" column="25" severity="error" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="245" column="33" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="254" column="33" severity="error" message="Bei einem equals()-Vergleich sollten String-Literale auf der linken Seite stehen." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+</file>
+<file name="D:\Fabian\Desktop\Neuer Ordner\todo\todo\src\test\java\todo\AppTest.java">
+</file>
+</checkstyle>
